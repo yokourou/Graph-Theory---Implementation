@@ -22,11 +22,16 @@ Each algorithm is accompanied by its Python implementation and a usage example.
 
 ```bash
 git clone https://github.com/yokourou/Graph-Theory---Implementation.git
+```
 
+2. Install the required dependencies by running the following command:
 
-2. Install the required dependencies by running the following command: 
 ```bash
 pip install -r requirements.txt
+```
+
+3. Use the functions & methods in the file: main.py
+
 
 
 
