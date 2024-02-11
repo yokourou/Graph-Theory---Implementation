@@ -11,6 +11,7 @@ The project includes implementations of the following algorithms:
 
 - Breadth-First Search (BFS)
 - Depth-First Search (DFS)
+  ![Bfs-Dfs](BFS-DFS.png)
 - Shortest Path Finding (Dijkstra)
 - Kruskal's Algorithm for Minimum Spanning Tree
 - Tarjan's Algorithm for Strongly Connected Components (SCC)
