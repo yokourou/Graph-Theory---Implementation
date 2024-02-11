@@ -2,6 +2,9 @@
 
 This project contains Python implementations of fundamental algorithms for working with graphs.
 
+![graphe](graphes.png)
+
+
 ## Contents
 
 The project includes implementations of the following algorithms:
