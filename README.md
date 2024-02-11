@@ -21,7 +21,7 @@ Each algorithm is accompanied by its Python implementation and a usage example.
 1. Clone this repository to your local machine:
 
  ```bash
-   git clone https://github.com/yokourou/Graph-Theory---Implementation.git ''' 
+   git clone https://github.com/yokourou/Graph-Theory---Implementation.git 
 
 2. Install the required dependencies by running the following command:
  ```bash
