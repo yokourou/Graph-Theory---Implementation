@@ -1,7 +1,7 @@
 import collections
 import heapq
 
-# BFS - Breadth-First Search (Parcours en largeur) 
+# BFS - Breadth-First search (Parcours en largeur) 
 def bfs(graph, start):
     visited = set()
     queue = collections.deque([start])
@@ -15,7 +15,7 @@ def bfs(graph, start):
                 visited.add(neighbor)
                 queue.append(neighbor)
 
-# DFS - Depth-First Search (Parcours en profondeur)
+# DFS - Depth-First search (Parcours en profondeur)
 def dfs(graph, start, visited=None):
     if visited is None:
         visited = set()
@@ -83,7 +83,7 @@ def kruskal(graph):
 
     return result
 
-# SCC - Strongly Connected Components search (algorithme de Tarjan pour la recherche de composantes fortement connexes)
+# SCC - Strongly connected components search (algorithme de Tarjan pour la recherche de composantes fortement connexes)
 def tarjan_scc(graph):
     index = {}
     lowlink = {}
@@ -132,7 +132,7 @@ def welsh_powell(graph):
             color += 1
     return color_map
 
-# Ford-Fulkerson algorithm (Algorithme de Flot maximal) 
+# Ford-Fulkerson algorithm (Algorithme de flot maximal) 
 def ford_fulkerson(graph, source, sink):
     max_flow = 0
     visited = set()
